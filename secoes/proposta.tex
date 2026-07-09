@@ -1,0 +1,81 @@
+\section{Proposta}
+
+A abordagem principal da proposta está composta em 3 etapas fazendo uma alusão com que vemos no mercado de trabalho. Utilizamos o auxilio de 2 agentes especializados para atuarem como o Engenheiro de Requisitos da aplicação e o Engenheiro de Software, tendo como papel de PO o usuário que está orquestrando eles.
+
+O primeiro agente, se utilizou o modelo GPT-5.5, onde foi responsável pelo refinamento e detalhemento dos requisitos passados pelo usuário. Seu objetivo foi trasnformar descrições informais de funcionalidade em especificações detalhadas e estruturadas no formato de prompts para ser utilizada na etapa de desenvolvimento.
+
+O segundo agente foi responsável por pensar na implementação a partir da descrição detalhada dos requisitos. Sua execução foi feita a partir da plataforma visual OpenCode utilizando o modelo Mimo 2.5. Esse agente por sua implementou as funcionalidades solicitadas, realizando criação ou edição no código-fonte da aplicação, produzindo os artefatos necessários para atender aos requisitos definidos.
+
+Desse modo, o fluxo proposto se baseia nas resposanbilidades reais do mercado de trabalho, buscando produzir uma divisão de responsabilidades observadas em equipe de desenvolvimento de software. No entanto, faz-se necessário o conhecimento em programação para entender a especificar para a LLM de geração de requisitos a proposta de segurança, bibliotecas utilizadas e meios para alcançar tais objetivos.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\linewidth,height=7.5cm,keepaspectratio]{imagens/fluxo-llm}
+  \caption{Pipeline de desenvolvimento orientado por agentes para refinamento de requisitos e implementação de software}
+  \Description{Fluxo de trabalho multiagentes}
+\end{figure}
+
+\subsection{Agente Refinador de Requisitos}
+
+O agente refinador tem como objetivo transformar solicitações informais e com baixo aceite pelas LLMs geradoras de código em estruturas mais detalhadas e específicas, auxiliando o desenvolvimento assistido por IA. Para isso, uma descrição textual elaborada identificando todos os objetivos de uma funcionalidade, objetivos, regras de negócio e fluxos principais e critérios de aceite devem ser passado para o modelo utilizado para refinar.
+
+Todas os textos devolvidos pelo o modelo de refinação devem ser validados e interpretados para entender o entendimento completo da funcionalidade, evitando com que ela seja desenvolvida incompleta ou de forma incorreta. Um ponto de destaque, é a importância de existir um profissional técnico por tras da criação desse texto inicial, para conduzir o texto refinado no modelo que ele construiria a aplicação, comentando as bibliotecas usadas, validações necessárias e outros pontos que podem impactar no desenvolvimento e na segurança do projeto.
+
+No nosso caso empírico, a escolha pela utilização do GPT se deu pela sua alta capacidade criativa e de escrita, se mostrando extremamente habilidoso na escrita dos prompts. Entretanto, entende-se que qualquer agente capaz de escrever prompts com qualidade podem ser usado nessa etapa de desenvolvimento.
+
+\subsection{Agente Desenvolvedor}
+
+Após o refinamento dos requisitos e especificações de implementação, o prompt gerado deve ser utilizado como entrada para o agente de desenvolvimento utilizando o modo \textit{thinking}  para que ocorra o pensamento e criação do fluxo das tarefas refinadas pela outra LLM. A partir desse momento, o agente poderá efetuar questionamentos para o desenvolvedor e esses devem ser analisados e respondidos conforme a necessidade do projeto.
+
+Todos os retornos de código devem ser analisados e verificados por um desenvolvedor com capacidade crítica de entender se o que foi feito possui manutenibilidade, confiabilidade e segurança. As implementações devem seguir o padrão na qual seriam feitas pelo próprio desenvolvedor, com isso ele deve ter total domínio da linguagem de programação utilizada para compreender a estrutura criada.
+
+Um ponto de destaque é a importância de um arquivo com instruções para o agente se tornar mais técnico e específico no projeto, podendo ser um \textit{AGENTS.md} na raiz, especificando toda a arquitetura do projeto para que ele siga os padrões pré definidos. O guia de arquitetura, funcionalidades, cores e skills utilizadas dentro desse arquivo funcionará como um manual de instruções para ele se basear e entender como deve estruturar as funcionalidades. Com tudo, devemos novamente refinar esse manual utilizando um modelo de inteligencia artigicial generativo para deixar descritivo e claro.
+
+Dentro do projeto do editor em latex, foi proposto a utilização da ferramenta Open-Source do opencode com o mimo 2.5, por conta do seu baixo consumo por tokens e a capacidade de pensamento avançado disponível como opção antes da execução do desenvolvimento. Entretanto é possivel se utilizar de outras ferramentas e modelos para utilização dessa técnica, tendo em vista a necessidade de um desenvolvedor experiente e com conhecimento na área para tomar a decisão de qual utilizar no projeto.
+
+\subsection{Aplicação e Observações}
+
+Para avaliar a aplicabilidade da metodologia proposta, foi desenvolvida uma ferramenta de edição de textos acadêmicos. A ferramenta tem como objetivo auxiliar o processo de escrita, organização e revisão de documentos, integrando recursos tradicionais de edição com funcionalidades baseadas em inteligência artificial.
+
+As principais funcionalidades implementadas foram:
+
+\begin{itemize}
+    \item Criação, importação e clonagem de projetos a partir de repositórios Git;
+    
+    \item Listagem e gerenciamento dos projetos criados pelo usuário;
+    
+    \item Interface gráfica para edição de arquivos \texttt{.tex}, contendo recursos de leitura e manipulação do código-fonte;
+    
+    \item Criação, edição e organização de subpastas e arquivos dentro do projeto;
+    
+    \item Importação e gerenciamento de imagens utilizadas na composição dos documentos;
+    
+    \item Reorganização de arquivos e diretórios por meio de operações de arrastar e soltar (\textit{drag and drop});
+    
+    \item Visualização do PDF compilado diretamente na aplicação;
+    
+    \item Navegação por seções do documento, permitindo acesso rápido a capítulos e subseções por meio de âncoras;
+    
+    \item Download do documento PDF gerado;
+    
+    \item Inicialização de repositórios Git nos projetos e execução de comandos básicos de versionamento (em fase de aprimoramento para correção de inconsistências);
+    
+    \item Apresentação de mensagens de erro detalhadas durante o processo de compilação, facilitando a identificação e resolução de problemas;
+    
+    \item Integração com modelos de inteligência artificial para auxílio na revisão textual, incluindo correção ortográfica, análise de concordância verbal, melhoria de sentenças e identificação de repetição excessiva de termos. Foram utilizados modelos locais baseados em Llama e modelos disponibilizados pela plataforma Groq, permitindo que o usuário selecione o provedor desejado por meio de variáveis de ambiente;
+    
+    \item Desenvolvimento da documentação técnica do projeto utilizando a ferramenta MkDocs;
+    
+    \item Implementação de pipeline de integração e entrega contínua (CI/CD) para geração e publicação automática da documentação via GitHub Pages após alterações no repositório principal.
+\end{itemize}
+
+
+Como trabalhos futuros e itens presentes no backlog de desenvolvimento, destacam-se:
+
+\begin{itemize}
+    \item Implementação de uma análise completa do projeto utilizando inteligência artificial para identificar e sugerir correções ortográficas e gramaticais em todos os arquivos do documento, sem depender do arquivo atualmente aberto pelo usuário;
+    
+    \item Utilização de inteligência artificial para avaliar a aderência do conteúdo desenvolvido aos requisitos definidos pela banca avaliadora, identificando possíveis lacunas ou melhorias necessárias;
+
+    \item Desenvolvimento de um recurso de assistência ao usuário para esclarecer dúvidas relacionadas à utilização de recursos \LaTeX, incluindo auxílio na aplicação de comandos de formatação textual, como negrito, itálico e outros elementos de estruturação do documento.
+\end{itemize}
