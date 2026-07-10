@@ -151,101 +151,13 @@ This ACM-like template, derived from the original \texttt{acmart} document class
 
 \input{secoes/proposta}
 
-\section{Citations and Bibliographies}
-
-The use of \BibTeX\ for the preparation and formatting of one's references is strongly recommended. Authors' names should be complete. Use full first names (``Donald E. Knuth'') instead of initials (``D. E. Knuth''), and the identifying features of a reference must be included: title, year, volume, number, pages, article DOI, etc.
-
-The bibliography is included in your source document with these two
-commands, placed just before the \verb|\end{document}| command:
-\begin{verbatim}
-  \bibliographystyle{ACM-Reference-Format}
-  \bibliography{bibfile}
-\end{verbatim}
-
-\verb|bibfile| is the \BibTeX\ filename without the \verb|.bib| suffix.
-
-Citations and references are numbered by default. Some examples:
-\begin{itemize}
-\item A paginated journal article \cite{Abril07}
-\item An enumerated journal article \cite{Cohen07}
-\item A reference to an entire issue \cite{JCohen96}
-\item A monograph (whole book) \cite{Kosiur01}
-\item A monograph/whole book in a series \cite{Harel79}
-\item A divisible book such as an anthology or compilation \cite{Editor00}
-\item A divisible book (series not included since no volume number is given) \cite{Editor00a}
-\item A chapter in a divisible book \cite{Spector90}
-\item A chapter in a divisible book in a series \cite{Douglass98}
-\item A multi-volume work as a book \cite{Knuth97}
-\item Paginated proceedings articles \cite{Andler79, Hagerup1993}
-\item A proceedings article with all possible elements \cite{Smith10}
-\item An enumerated proceedings article \cite{VanGundy07}
-\item An informally published work \cite{Harel78}
-\item Preprints \cite{Bornmann2019, AnzarootPBM14}
-\item A doctoral dissertation \cite{Clarkson85}
-\item A master's thesis \cite{anisi03}
-\item Online documents / World Wide Web resources \cite{Thornburg01, Ablamowicz07, Poker06}
-\item Video games (Case 1) \cite{Obama08}
-\item Video games (Case 2) \cite{Novak03, Lee05}
-\item A patent (Case 3) \cite{JoeScientist001}
-\item Work accepted for publication \cite{rous08}
-\item `YYYYb' test for prolific author \cite{SaeediMEJ10, SaeediJETC10}
-\item Citations containing duplicate DOI and URLs (e.g., some SIAM articles) \cite{Kirschmer:2010:AEI:1958016.1958018}
-\item Multi-volume works as books \cite{MR781536, MR781537}
-\item A presentation \cite{Reiser2014}
-\item An article under review \cite{Baggett2025}
-\item Citations with DOIs \cite{2004:ITE:1009386.1010128, Kirschmer:2010:AEI:1958016.1958018}
-\item Online citations \cite{TUGInstmem, Thornburg01, CTANacmart}
-\item Artifacts \cite{R, UMassCitations}
-\end{itemize}
-
-
-\section{Recomme that demonstratependices}
-
-If your work needs an appendix, add it before the \verb|\end{document}| command at the conclusion of your source document.
-
-Start the appendix with the \verb|appendix| command:
-\begin{verbatim}
-  \appendix
-\end{verbatim}
-
-In the appendix, sections are lettered rather than numbered. This document has two appendices that demonstrate the section and subsection identification method.
-
-\section{Conclusion and Future Work}
-<text included by the authors>
-
-\section*{Artifact Availability}
-This section must be included immediately after the Conclusion and before the Acknowledgments section. It must not be numbered and must be titled exactly as \textbf{Artifact Availability}.
-
-If the paper provides research artifacts (such as datasets, source code, scripts, models, or experimental packages), the authors must describe what is available, where it can be accessed, and under which license or usage conditions.
-
-If no artifacts are available, this section must still be included, explicitly stating that no artifacts are provided.
-
-For papers written in Portuguese, this section must be titled
-\textbf{Disponibilidade de Artefatos}.
-
-\section*{Acknowledgements}
-<text included by the authors>
+\input{secoes/conclusao}
 
 %% The next two lines define the bibliography style to be used, and
 %% the bibliography file.
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{samples/sample-base}
 
-%% If your work has appendices, this is the place to put them
-\appendix
-
-\section{Appendix Example 1}
-
-\subsection{Part One}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada, quam in pulvinar varius, metus nunc fermentum urna, id sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et lacinia dolor. Integer ultricies commodo sem nec semper.
-
-\subsection{Part Two}
-Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non ipsum convallis congue hendrerit vitae sapien. Donec at laoreet eros. Vivamus non purus placerat, scelerisque diam eu, cursus ante. Etiam aliquam tortor auctor efficitur mattis.
-
-\section{Appendix Example 2}
-Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis enim maximus. Vestibulum gravida massa ut felis suscipit congue. Quisque mattis elit a risus ultrices commodo venenatis eget dui. Etiam sagittis eleifend elementum.
-
-Nam interdum magna at lectus dignissim, ac dignissim lorem rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar massa et mattis lacinia.
 
 \end{document}
 

@@ -12,53 +12,77 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty author in 2004:ITE:1009386.1010128
-Warning--articleno or eid field, but no numpages field, in Lee05
-Warning--page numbers missing in both pages and numpages fields in Lee05
-Warning--articleno or eid, but no pages or numpages field in Lee05
-Warning--page numbers missing in both pages and numpages fields in Reiser2014
-Warning--articleno or eid field, but no numpages field, in rous08
-Warning--page numbers missing in both pages and numpages fields in rous08
-Warning--articleno or eid, but no pages or numpages field in rous08
-You've used 39 entries,
+Warning--empty publisher in born2025revisao
+Warning--empty address in born2025revisao
+Warning--empty publisher in ciudrowski2026explorando
+Warning--empty address in ciudrowski2026explorando
+Warning--empty address in larguesa2025engenharia
+Warning--empty year in minaee_large_2024
+Warning--using date in minaee_large_2024
+Warning--no journal in nacimento2024exploraccao
+Warning--no number and no volume in nacimento2024exploraccao
+Warning--page numbers missing in both pages and numpages fields in nacimento2024exploraccao
+Warning--empty year in nair_dera_2023
+Warning--using date in nair_dera_2023
+Warning--empty year in palermo_agentes_2026
+Warning--using date in palermo_agentes_2026
+Warning--empty address in palermo_agentes_2026
+Warning--empty year in pires_prompts_2025
+Warning--using date in pires_prompts_2025
+Warning--empty address in pires_prompts_2025
+Warning--empty year in ribeiro_software_2025
+Warning--using date in ribeiro_software_2025
+Warning--empty address in ribeiro_software_2025
+Warning--empty year in silva_engenharia_2024
+Warning--using date in silva_engenharia_2024
+Warning--no journal in silva_engenharia_2024
+Warning--no number and no volume in silva_engenharia_2024
+Warning--page numbers missing in both pages and numpages fields in silva_engenharia_2024
+Warning--empty year in sommerville_engenharia_nodate
+Warning--using n.d. in sommerville_engenharia_nodate
+Warning--empty address in sommerville_engenharia_nodate
+Warning--empty year in tolio_llms_2026
+Warning--using date in tolio_llms_2026
+Warning--empty address in tolio_llms_2026
+You've used 12 entries,
             6273 wiz_defined-function locations,
-            1977 strings with 27235 characters,
-and the built_in function-call counts, 36325 in all, are:
-= -- 4602
-> -- 863
-< -- 5
-+ -- 273
-- -- 365
-* -- 2438
-:= -- 3550
-add.period$ -- 203
-call.type$ -- 39
-change.case$ -- 227
-chr.to.int$ -- 37
-cite$ -- 47
-duplicate$ -- 3362
-empty$ -- 2382
-format.name$ -- 372
-if$ -- 8526
-int.to.chr$ -- 4
+            1595 strings with 21546 characters,
+and the built_in function-call counts, 12675 in all, are:
+= -- 1251
+> -- 406
+< -- 0
++ -- 129
+- -- 137
+* -- 917
+:= -- 1259
+add.period$ -- 60
+call.type$ -- 12
+change.case$ -- 87
+chr.to.int$ -- 12
+cite$ -- 44
+duplicate$ -- 1233
+empty$ -- 882
+format.name$ -- 165
+if$ -- 2941
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 73
-newline$ -- 404
-num.names$ -- 266
-pop$ -- 1107
+missing$ -- 42
+newline$ -- 138
+num.names$ -- 84
+pop$ -- 617
 preamble$ -- 1
-purify$ -- 529
+purify$ -- 178
 quote$ -- 0
-skip$ -- 1266
+skip$ -- 403
 stack$ -- 0
-substring$ -- 2900
-swap$ -- 309
-text.length$ -- 95
+substring$ -- 891
+swap$ -- 106
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 957
-warning$ -- 8
-while$ -- 265
+type$ -- 302
+warning$ -- 32
+while$ -- 74
 width$ -- 0
-write$ -- 849
-(There were 8 warnings)
+write$ -- 269
+(There were 32 warnings)
