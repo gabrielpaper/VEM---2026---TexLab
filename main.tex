@@ -1,4 +1,4 @@
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous]{acmart}
 
 %% Using the option "anonymous" will produce "Anonymous Author(s)"
 %% for double-anonymized review. Upon acceptance, remove this option
@@ -26,11 +26,11 @@
     \providecommand\BibTeX{{Bib\TeX}}
 }
 
-%% Only for papers written in PORTUGUESE: 
+%% Only for papers written in PORTUGUESE:
 %% comment out the following three lines
-%\renewcommand\abstractname{Resumo}
-%\renewcommand\keywordsname{Palavras-chave}
-%\renewcommand\refname{Referências}
+\renewcommand\abstractname{Resumo}
+\renewcommand\keywordsname{Palavras-chave}
+\renewcommand\refname{Referências}
 
 %% end of the preamble, start of the body of the document source.
 
@@ -43,7 +43,7 @@
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used on the page 
 %% headers.
-\title{The Name of the Title Is Hope}
+\title{Refinamento e Implementação Assistidos por Agentes: um Estudo de Caso sobre uma Ferramenta de Edição de Textos em Latex}
 
 %% The "author" command and its associated commands are used to define
 %% the authors and their affiliations.
@@ -128,22 +128,23 @@
 %% This command allows the author to define a more concise list
 %% of authors' names for this purpose.
 \renewcommand{\shortauthors}{Surname1stAuthor et al.}
-\renewcommand{\shorttitle}{The Name of the Title Is Hope}
+\renewcommand{\shorttitle}{Refinamento e Implementação Assistidos por Agentes: um Estudo de Caso sobre uma Ferramenta de Edição de Textos em Latex}
 
 %% The abstract is a short summary of the work the paper presents.
 \begin{abstract}
-This ACM-like template, derived from the original \texttt{acmart} document class, is intended to support the preparation of scientific papers for the symposia and workshops that compose CBSoft. It preserves the visual identity and structural organization of the ACM consolidated format while adapting its elements to comply with the editorial and formatting guidelines adopted by the Brazilian Computer Society. This template can be used for both review and camera-ready versions, allowing authors to prepare their manuscripts with minimal structural changes. The abstract text must be written as a single continuous paragraph, without paragraph breaks.
+A separação entre refinamento de requisitos e implementação de código orienta a proposta deste artigo, apoiada por dois agentes de Inteligência Artificial (IA) especializados: um transforma descrições informais de funcionalidades em prompts estruturados e detalhados, e o outro implementa essas especificações a partir dos prompts recebidos. Como estudo de caso, foi construída uma ferramenta de edição de textos acadêmicos em \LaTeX{}, cujas funcionalidades nasceram desse processo assistido por agentes. A separação de responsabilidades reduziu ambiguidades nos requisitos e apoiou a implementação das funcionalidades solicitadas. Um profissional técnico, porém, ainda é necessário. Cabe a ele orientar o refinamento e validar os artefatos gerados pelos agentes. O artigo discute benefícios, limitações e implicações dessa estratégia para a Engenharia de Software, além dos desafios de confiabilidade das respostas geradas e de validação das implementações produzidas.
 \end{abstract}
 
 %% Keywords. The author(s) should pick words that accurately describe
 %% the presented work. Separate the keywords with commas.
-\keywords{Do, Not, Use, This, Code, Put, the, Correct, Terms, for, Your, Paper}
+\keywords{Engenharia de Requisitos, LLM, Agentes, Inteligência Artificial, Engenharia de Prompt}
 
 %% This command processes the author, affiliation, and title
 %% information and builds the first part of the formatted document.
 %% "frenchspacing" avoids an additional space after a period at the end of a sentence.
 \frenchspacing
 \maketitle
+\raggedbottom
 
 \input{secoes/introducao}
 

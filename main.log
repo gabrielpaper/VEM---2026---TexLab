@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  10 JUL 2026 02:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  10 JUL 2026 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -42,6 +42,7 @@ Package acmart Info: Explicitly selecting natbib mode on input line 138.
 Package acmart Info: Not using anonymous mode on input line 146.
 Package acmart Info: Not using timestamp mode on input line 154.
 Package acmart Info: Not using authordraft mode on input line 164.
+Package acmart Info: Using anonymous mode on input line 179.
 Class acmart Info: Using format sigconf, number 4 on input line 179.
 Class acmart Info: Using fontsize 9pt on input line 281.
 
@@ -707,7 +708,7 @@ Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen259
 )
 Excluding comment 'screenonly' Include comment 'printonly'
-Include comment 'anonsuppress'
+Excluding comment 'anonsuppress' Excluding comment 'acks'
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count336
@@ -950,18 +951,30 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 146.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 146.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 146.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 146.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 146.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
@@ -969,120 +982,91 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 146.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 146.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 146.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 146.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 146.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 146.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 14
-6.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 146.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 146.
 
+(./secoes/introducao.tex) (./secoes/fundamentacao-teorica.tex [1.1{/usr/local/t
+exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
+26/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texlive/202
+6/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
+
+{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}]
+
+Overfull \hbox (1.94371pt too wide) in paragraph at lines 13--14
+[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Diante desse cenário de adoção cres-cente
+, a En-gen-haria de Prompt
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 15.
+) (./secoes/proposta.tex
+<imagens/fluxo-llm.pdf, id=68, 173.64874pt x 392.46625pt>
+File: imagens/fluxo-llm.pdf Graphic file (type pdf)
+<use imagens/fluxo-llm.pdf>
+Package pdftex.def Info: imagens/fluxo-llm.pdf  used on input line 13.
+(pdftex.def)             Requested size: 94.42073pt x 213.40178pt.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 19.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 19.
+ [2.2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.
+enc} <./imagens/fluxo-llm.pdf>]
+Overfull \hbox (19.06454pt too wide) in paragraph at lines 35--36
+[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Criação, im-por-tação e clon-agem de pro-
+je-tos a par-tir de repositórios
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 39
+.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 39.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./secoes/introducao.tex
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1.1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/us
-r/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr
-/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
-
-{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{
-/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}])
-(./secoes/fundamentacao-teorica.tex
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 19.
-) (./secoes/proposta.tex
-<imagens/fluxo-llm.pdf, id=92, 173.64874pt x 392.46625pt>
-File: imagens/fluxo-llm.pdf Graphic file (type pdf)
-<use imagens/fluxo-llm.pdf>
-Package pdftex.def Info: imagens/fluxo-llm.pdf  used on input line 13.
-(pdftex.def)             Requested size: 94.42073pt x 213.40178pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 16.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 16.
- [2.2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.
-enc}]
-Overfull \hbox (19.06454pt too wide) in paragraph at lines 43--44
-[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Criação, im-por-tação e clon-agem de pro-
-je-tos a par-tir de repositórios
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3.3 <./imagens/fluxo-llm.pdf>]
-Overfull \hbox (1.68729pt too wide) in paragraph at lines 76--77
+Overfull \hbox (1.68729pt too wide) in paragraph at lines 67--68
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) Implementação de uma análise com-pleta do
  pro-jeto uti-lizando
  []
 
+[3.3{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc
+}]
+<imagens/layout-texlab.png, id=104, 2561.57pt x 1301.86375pt>
+File: imagens/layout-texlab.png Graphic file (type png)
+<use imagens/layout-texlab.png>
+Package pdftex.def Info: imagens/layout-texlab.png  used on input line 86.
+(pdftex.def)             Requested size: 241.14749pt x 122.54604pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 6.6pt on input line 87.
 ) (./secoes/conclusao.tex
 Overfull \hbox (8.95595pt too wide) in paragraph at lines 5--6
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) Esse texto foi es-crito uti-lizando a fer
 -ra-menta em questão, mostrando
  []
 
-
-Underfull \vbox (badness 2096) has occurred while \output is active []
-
-)
-(./main.bbl
+) (./main.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 48.
-
+ [4.4 <./imagens/layout-texlab.png>]
 Underfull \hbox (badness 1142) in paragraph at lines 141--149
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) Juliana Gomes Ribeiro, Joel Machado Pires
 , Jonas Oliveira Pereira, Fred-
@@ -1098,32 +1082,28 @@ Class acmart Warning: ACM reference format is mandatory
 
 Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
 (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
 (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [4.4]
+) [5.5]
 (./main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 24EF39CB68DB23E991ED4D5AD9D1ABEB;2001.
+(rerunfilecheck)             Checksum: 691CA3725107EE0A811E59656798E70D;661.
  ) 
 Here is how much of TeX's memory you used:
- 21159 strings out of 467168
- 342730 string characters out of 5409468
- 850459 words of memory out of 5000000
- 49563 multiletter control sequences out of 15000+600000
- 752807 words of font info for 298 fonts, out of 8000000 for 9000
+ 21145 strings out of 467168
+ 342760 string characters out of 5409468
+ 835616 words of memory out of 5000000
+ 49541 multiletter control sequences out of 15000+600000
+ 754214 words of font info for 298 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 89i,12n,131p,1001b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,131p,1014b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/inconsolata/Inconsolat
 a-zi4r.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/libertine/Lin
 BiolinumT.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/libertine/
@@ -1132,10 +1112,10 @@ ine/LinLibertineT.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/li
 bertine/LinLibertineTB.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/publ
 ic/libertine/LinLibertineTI.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1
 /public/newtx/txsys.pfb>
-Output written on main.pdf (4 pages, 398129 bytes).
+Output written on main.pdf (5 pages, 1034934 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 62070 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 62027 words of extra memory for PDF output out of 74296 (max. 10000000)
 
